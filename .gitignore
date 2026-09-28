@@ -1,3 +1,6 @@
+pnpm-lock.yaml
+run.bat
+
 # build output
 dist/
 
