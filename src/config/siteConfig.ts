@@ -37,18 +37,18 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "秋樱",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "编程技术分享",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://diuse.work",
 
 	// 站点描述
 	description:
@@ -56,6 +56,8 @@ export const siteConfig: SiteConfig = {
 
 	// 站点关键词
 	keywords: [
+		"秋樱编程技术分享",
+		"秋樱",
 		"Firefly",
 		"Fuwari",
 		"Astro",
