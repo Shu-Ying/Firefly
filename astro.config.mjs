@@ -353,6 +353,7 @@ export default defineConfig({
 	vite: {
 		plugins: [tailwindcss()],
 		server: {
+			allowedHosts: ['diuse.work'],
 			watch: {
 				ignored: ["**/package/**", "**/Firefly-docs/**"],
 			},
